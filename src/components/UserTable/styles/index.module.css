@@ -1,0 +1,60 @@
+.wrapper{
+    width: 100%;
+    max-width: 50vw;
+}
+.input{
+    height: 100%;
+    outline: none;
+    background: none;
+    padding: 0.5rem 0.7rem;
+    font-size: 1.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin: 5px 0;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.table  th, .table  td {
+    padding: 16px 24px;
+    text-align: left;
+}
+.table thead  th {
+    background-color: #28a745;
+    color: #fff;
+    width: 25%;
+}
+
+.table tbody  tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.table  tbody  tr:nth-child(odd) {
+    background-color: #e9ecef;
+}
+
+.actions{
+    display: flex;
+    gap: 5px;
+}
+.btn{
+    border: none;
+    cursor: pointer;
+    padding: 10px ;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+.btn_edit{
+    background-color: rgb(255,193,7);
+}
+.btn_delete{
+    background-color: rgb(220,53,69);
+}
+.btn:hover{
+    opacity: 0.8;
+}
+
